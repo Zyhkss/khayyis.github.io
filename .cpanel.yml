@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/zyhkss/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R style $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
