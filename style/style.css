@@ -13,3 +13,9 @@
 section {
     padding-top: 6rem;
 }
+.gallert-img {
+    width: 100%;
+}
+#gallery .row > * {
+    padding: 0;
+}
